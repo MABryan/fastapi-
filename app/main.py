@@ -29,4 +29,4 @@ app.include_router(vote.router)
 
 @app.get("/")
 def root():
-    return {"message": "Hello World, I will move by December 24th 2024"}
+    return {"message": "Hello World, I will move by December 2024"}
